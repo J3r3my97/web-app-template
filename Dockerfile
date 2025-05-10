@@ -11,6 +11,10 @@ ENV PORT 1234
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install psycopg2-binary
 
+RUN apt-get update && apt-get install -y \
+    libgl1-mesa-glx \
+    libglib2.0-0
+
 # As an example here we're running the web service with one worker on uvicorn.
 ENV APP_SOURCE /app/src
 WORKDIR $APP_SOURCE
