@@ -1,5 +1,5 @@
 # db-updater
-helloworld for fast api app
+Dental image processing with fast api app
 
 # Spin up locally
 
