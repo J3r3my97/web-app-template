@@ -90,4 +90,7 @@ validator==0.7.1 ; python_version >= "3.9" and python_version < "4.0"
 validators==0.34.0 ; python_version >= "3.9" and python_version < "4.0"
 wrapt==1.16.0 ; python_version >= "3.9" and python_version < "4.0"
 yarl==1.9.4 ; python_version >= "3.9" and python_version < "4.0"
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+Pillow==10.2.0
 google-cloud-pubsub
